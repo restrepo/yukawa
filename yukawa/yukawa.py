@@ -111,8 +111,6 @@ def get_massive_fermions(l,s,ps=[]):
             sltn['ψ']=msv
         return sltn
 
-# TODO: Move to tests
-assert get_massive_fermions([2, 4, 4, 5, 5, 7],9).get('S')==9          
 
 if __name__ == '__main__':
     r'''
